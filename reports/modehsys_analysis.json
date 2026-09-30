@@ -1,0 +1,1377 @@
+{
+  "name": "modehsys",
+  "base_address": 142622720,
+  "text_size": 437548,
+  "imports": [
+    {
+      "library": "InterruptManager",
+      "nid": "0xCA04A2B9",
+      "stub_address": 437548
+    },
+    {
+      "library": "InterruptManager",
+      "nid": "0xD61E6961",
+      "stub_address": 437556
+    },
+    {
+      "library": "InterruptManager",
+      "nid": "0xFB8E22EC",
+      "stub_address": 437564
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x06A70004",
+      "stub_address": 437572
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x42EC03AC",
+      "stub_address": 437580
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x54F5FB11",
+      "stub_address": 437588
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x55F4717D",
+      "stub_address": 437596
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x5C2BE2CC",
+      "stub_address": 437604
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x63632449",
+      "stub_address": 437612
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x68963324",
+      "stub_address": 437620
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x6A638D83",
+      "stub_address": 437628
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x71B19E77",
+      "stub_address": 437636
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x779103A0",
+      "stub_address": 437644
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x810C4BC3",
+      "stub_address": 437652
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x08BD7374",
+      "stub_address": 437660
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x89AA9906",
+      "stub_address": 437668
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xA0B5A7C2",
+      "stub_address": 437676
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xA12A0514",
+      "stub_address": 437684
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xAB96437F",
+      "stub_address": 437692
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xACE946E8",
+      "stub_address": 437700
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xB293727F",
+      "stub_address": 437708
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xB29DDF9C",
+      "stub_address": 437716
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xE23EEC33",
+      "stub_address": 437724
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xE3EB004C",
+      "stub_address": 437732
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x0FACAB19",
+      "stub_address": 437740
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xE8BC6571",
+      "stub_address": 437748
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xE95A012B",
+      "stub_address": 437756
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xEB092469",
+      "stub_address": 437764
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xF27A9C51",
+      "stub_address": 437772
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xFF5940B6",
+      "stub_address": 437780
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x109F50BC",
+      "stub_address": 437788
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x1117C65F",
+      "stub_address": 437796
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x1B385D8F",
+      "stub_address": 437804
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x27EB27B8",
+      "stub_address": 437812
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x3251EA56",
+      "stub_address": 437820
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x35DBD746",
+      "stub_address": 437828
+    },
+    {
+      "library": "Kernel_Library",
+      "nid": "0x092968F4",
+      "stub_address": 437836
+    },
+    {
+      "library": "Kernel_Library",
+      "nid": "0x5F10D406",
+      "stub_address": 437844
+    },
+    {
+      "library": "LoadExecForUser",
+      "nid": "0x05572A5F",
+      "stub_address": 437852
+    },
+    {
+      "library": "LoadExecForUser",
+      "nid": "0x4AC57943",
+      "stub_address": 437860
+    },
+    {
+      "library": "LoadExecForUser",
+      "nid": "0xBD2F1094",
+      "stub_address": 437868
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0x2E0911AA",
+      "stub_address": 437876
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0xD8B73127",
+      "stub_address": 437884
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0xF0A26395",
+      "stub_address": 437892
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0x50F0C1EC",
+      "stub_address": 437900
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0x644395E2",
+      "stub_address": 437908
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0x748CBED9",
+      "stub_address": 437916
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0x8F2DF740",
+      "stub_address": 437924
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0x977DE386",
+      "stub_address": 437932
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0xB7F46618",
+      "stub_address": 437940
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0xCC1D3699",
+      "stub_address": 437948
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "nid": "0xD1FF982A",
+      "stub_address": 437956
+    },
+    {
+      "library": "StdioForUser",
+      "nid": "0x172D316E",
+      "stub_address": 437964
+    },
+    {
+      "library": "StdioForUser",
+      "nid": "0xA6BAB2E9",
+      "stub_address": 437972
+    },
+    {
+      "library": "StdioForUser",
+      "nid": "0xF78BA90A",
+      "stub_address": 437980
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0x13A5ABEF",
+      "stub_address": 437988
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0x237DBD4F",
+      "stub_address": 437996
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0x7591C7DB",
+      "stub_address": 438004
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0x9D9A5BA1",
+      "stub_address": 438012
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0xA291F107",
+      "stub_address": 438020
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0xB6D61D02",
+      "stub_address": 438028
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0xF77D77CB",
+      "stub_address": 438036
+    },
+    {
+      "library": "SysMemUserForUser",
+      "nid": "0xF919F628",
+      "stub_address": 438044
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xCEADEB47",
+      "stub_address": 438052
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xD59EAD2F",
+      "stub_address": 438060
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x1FB15A32",
+      "stub_address": 438068
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xD6DA4BA1",
+      "stub_address": 438076
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xD979E9BF",
+      "stub_address": 438084
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xE81CAF8F",
+      "stub_address": 438092
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xE9B3061E",
+      "stub_address": 438100
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xEA748E31",
+      "stub_address": 438108
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xED1410E0",
+      "stub_address": 438116
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xEF9E4C70",
+      "stub_address": 438124
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xF475845D",
+      "stub_address": 438132
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xF6414A71",
+      "stub_address": 438140
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x278C0DF5",
+      "stub_address": 438148
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x28B6489C",
+      "stub_address": 438156
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x293B45B8",
+      "stub_address": 438164
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x349D6D6C",
+      "stub_address": 438172
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x369ED59D",
+      "stub_address": 438180
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x0D81716A",
+      "stub_address": 438188
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x3F53E640",
+      "stub_address": 438196
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x402FCF22",
+      "stub_address": 438204
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x446D8DE6",
+      "stub_address": 438212
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x4E3A1105",
+      "stub_address": 438220
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x55C20A00",
+      "stub_address": 438228
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x56C039B5",
+      "stub_address": 438236
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x68DA9E36",
+      "stub_address": 438244
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x6D212BAC",
+      "stub_address": 438252
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x71BC9871",
+      "stub_address": 438260
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x75156E8F",
+      "stub_address": 438268
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x812346E4",
+      "stub_address": 438276
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x8125221D",
+      "stub_address": 438284
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x82BC5777",
+      "stub_address": 438292
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x840E8133",
+      "stub_address": 438300
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x86255ADA",
+      "stub_address": 438308
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x89B3D48C",
+      "stub_address": 438316
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x94AA61EE",
+      "stub_address": 438324
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x9944F31F",
+      "stub_address": 438332
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x9ACE131E",
+      "stub_address": 438340
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0x9FA03CD3",
+      "stub_address": 438348
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xA66B0120",
+      "stub_address": 438356
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xAA73C935",
+      "stub_address": 438364
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xAF36D708",
+      "stub_address": 438372
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xB736E9FF",
+      "stub_address": 438380
+    },
+    {
+      "library": "ThreadManForUser",
+      "nid": "0xC07BB470",
+      "stub_address": 438388
+    },
+    {
+      "library": "UtilsForUser",
+      "nid": "0x71EC4271",
+      "stub_address": 438396
+    },
+    {
+      "library": "UtilsForUser",
+      "nid": "0x79D1C3FA",
+      "stub_address": 438404
+    },
+    {
+      "library": "UtilsForUser",
+      "nid": "0x91E4F6A7",
+      "stub_address": 438412
+    },
+    {
+      "library": "UtilsForUser",
+      "nid": "0xB435DEC5",
+      "stub_address": 438420
+    },
+    {
+      "library": "UtilsForUser",
+      "nid": "0x27CC57F0",
+      "stub_address": 438428
+    },
+    {
+      "library": "UtilsForUser",
+      "nid": "0x37FB5C42",
+      "stub_address": 438436
+    },
+    {
+      "library": "sceSuspendForUser",
+      "nid": "0x090CCB3F",
+      "stub_address": 439500
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0x03444EB4",
+      "stub_address": 438668
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0x05DB22CE",
+      "stub_address": 438676
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0x1C0D95A6",
+      "stub_address": 438684
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0x1F6752AD",
+      "stub_address": 438692
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0x4C06E472",
+      "stub_address": 438700
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0xA4FC06A4",
+      "stub_address": 438708
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0xAB49E76A",
+      "stub_address": 438716
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0xB287BD61",
+      "stub_address": 438724
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0xB448EC0D",
+      "stub_address": 438732
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0xB77905EA",
+      "stub_address": 438740
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0xE0D68148",
+      "stub_address": 438748
+    },
+    {
+      "library": "sceGe_user",
+      "nid": "0xE47E40E4",
+      "stub_address": 438756
+    },
+    {
+      "library": "sceDisplay",
+      "nid": "0x0E20F177",
+      "stub_address": 438612
+    },
+    {
+      "library": "sceDisplay",
+      "nid": "0x210EAB3A",
+      "stub_address": 438620
+    },
+    {
+      "library": "sceDisplay",
+      "nid": "0x289D82FE",
+      "stub_address": 438628
+    },
+    {
+      "library": "sceDisplay",
+      "nid": "0x46F186C3",
+      "stub_address": 438636
+    },
+    {
+      "library": "sceDisplay",
+      "nid": "0x9C6EAAD7",
+      "stub_address": 438644
+    },
+    {
+      "library": "sceDisplay",
+      "nid": "0xDBA6C4C4",
+      "stub_address": 438652
+    },
+    {
+      "library": "sceCtrl",
+      "nid": "0x1F4011E6",
+      "stub_address": 438588
+    },
+    {
+      "library": "sceCtrl",
+      "nid": "0x1F803938",
+      "stub_address": 438596
+    },
+    {
+      "library": "sceCtrl",
+      "nid": "0x3A622550",
+      "stub_address": 438604
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x099EF33C",
+      "stub_address": 438764
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x0DA7535E",
+      "stub_address": 438772
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x67F17ED7",
+      "stub_address": 438780
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x980F4895",
+      "stub_address": 438788
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xA834319D",
+      "stub_address": 438796
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xDCC80C2F",
+      "stub_address": 438804
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xEE232411",
+      "stub_address": 438812
+    },
+    {
+      "library": "sceUmdUser",
+      "nid": "0x4A9E5E29",
+      "stub_address": 439508
+    },
+    {
+      "library": "sceUmdUser",
+      "nid": "0x6AF9B50A",
+      "stub_address": 439516
+    },
+    {
+      "library": "sceUmdUser",
+      "nid": "0x6B4A146C",
+      "stub_address": 439524
+    },
+    {
+      "library": "sceUmdUser",
+      "nid": "0x8EF08FCE",
+      "stub_address": 439532
+    },
+    {
+      "library": "sceUmdUser",
+      "nid": "0xC6183D47",
+      "stub_address": 439540
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x0D5BC6D2",
+      "stub_address": 439548
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x1579A159",
+      "stub_address": 439556
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x2AD8E239",
+      "stub_address": 439564
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x34B78343",
+      "stub_address": 439572
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x3DFAEBA9",
+      "stub_address": 439580
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x4B85C861",
+      "stub_address": 439588
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x4DB1E739",
+      "stub_address": 439596
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x50C4CD57",
+      "stub_address": 439604
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x6332AA39",
+      "stub_address": 439612
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x64D50C56",
+      "stub_address": 439620
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x67AF3428",
+      "stub_address": 439628
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x8874DBE0",
+      "stub_address": 439636
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x91E70E35",
+      "stub_address": 439644
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x95FC253B",
+      "stub_address": 439652
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x9790B33C",
+      "stub_address": 439660
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0x9A1C91D7",
+      "stub_address": 439668
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0xC629AF26",
+      "stub_address": 439676
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0xD4B95FFB",
+      "stub_address": 439684
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0xF3F76017",
+      "stub_address": 439692
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0xF6269B82",
+      "stub_address": 439700
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0xF64910F0",
+      "stub_address": 439708
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0xF7D8D092",
+      "stub_address": 439716
+    },
+    {
+      "library": "sceUtility",
+      "nid": "0xF88155F6",
+      "stub_address": 439724
+    },
+    {
+      "library": "sceDmac",
+      "nid": "0x617F3FE6",
+      "stub_address": 438660
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x0E3C2E9D",
+      "stub_address": 438820
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x13407F13",
+      "stub_address": 438828
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x167AFD9E",
+      "stub_address": 438836
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x21FF80E4",
+      "stub_address": 438844
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x37295ED8",
+      "stub_address": 438852
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x42560F23",
+      "stub_address": 438860
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x4571CC64",
+      "stub_address": 438868
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x591A4AA2",
+      "stub_address": 438876
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x606A4649",
+      "stub_address": 438884
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x611E9E11",
+      "stub_address": 438892
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x682A619B",
+      "stub_address": 438900
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x707B7629",
+      "stub_address": 438908
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x740FCCD1",
+      "stub_address": 438916
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x800C44DF",
+      "stub_address": 438924
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0x874624D6",
+      "stub_address": 438932
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xA780CF7E",
+      "stub_address": 438940
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xB240A59E",
+      "stub_address": 438948
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xB5F6DC87",
+      "stub_address": 438956
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xC132E22F",
+      "stub_address": 438964
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xCEB870B1",
+      "stub_address": 438972
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xD7A29F46",
+      "stub_address": 438980
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xD8C5F121",
+      "stub_address": 438988
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xE1CE83A7",
+      "stub_address": 438996
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xF8DCB679",
+      "stub_address": 439004
+    },
+    {
+      "library": "sceMpeg",
+      "nid": "0xFE246728",
+      "stub_address": 439012
+    },
+    {
+      "library": "sceOpenPSID",
+      "nid": "0xC69BEBCE",
+      "stub_address": 439316
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0x132F1ECA",
+      "stub_address": 438444
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0x61EB33F5",
+      "stub_address": 438452
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0x644E5607",
+      "stub_address": 438460
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0x6A8C3CD5",
+      "stub_address": 438468
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0x7A20E7AF",
+      "stub_address": 438476
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0x868120B5",
+      "stub_address": 438484
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0xA2BBA8BE",
+      "stub_address": 438492
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0xD6A5F2F7",
+      "stub_address": 438500
+    },
+    {
+      "library": "sceAtrac3plus",
+      "nid": "0xFAA4F89B",
+      "stub_address": 438508
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x019B25EB",
+      "stub_address": 439332
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x267A6DD2",
+      "stub_address": 439340
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x2C8E6AB3",
+      "stub_address": 439348
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x33D4AB37",
+      "stub_address": 439356
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x42778A9F",
+      "stub_address": 439364
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x440CA7D8",
+      "stub_address": 439372
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x50A14DFC",
+      "stub_address": 439380
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x5F9529F6",
+      "stub_address": 439388
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x68A46B95",
+      "stub_address": 439396
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x74AE582A",
+      "stub_address": 439404
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x76F01ACA",
+      "stub_address": 439412
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x787D04D5",
+      "stub_address": 439420
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x99944089",
+      "stub_address": 439428
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0x9EC3676A",
+      "stub_address": 439436
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0xA0CF2FA4",
+      "stub_address": 439444
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0xA3589D81",
+      "stub_address": 439452
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0xAD84D37F",
+      "stub_address": 439460
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0xB7660A23",
+      "stub_address": 439468
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0xCBCD4F79",
+      "stub_address": 439476
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0xD5A229C9",
+      "stub_address": 439484
+    },
+    {
+      "library": "sceSasCore",
+      "nid": "0xF983B186",
+      "stub_address": 439492
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0x136CAF51",
+      "stub_address": 438516
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0x13F592BC",
+      "stub_address": 438524
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0x5EC81C55",
+      "stub_address": 438532
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0x6FC46853",
+      "stub_address": 438540
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0x95FD0C2D",
+      "stub_address": 438548
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0xB011922F",
+      "stub_address": 438556
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0xB7E1D8E7",
+      "stub_address": 438564
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0xCB2E439E",
+      "stub_address": 438572
+    },
+    {
+      "library": "sceAudio",
+      "nid": "0xE2D56B2D",
+      "stub_address": 438580
+    },
+    {
+      "library": "sceRtc",
+      "nid": "0x3F7AD767",
+      "stub_address": 439324
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0x2A2A1E07",
+      "stub_address": 439020
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0x32B156B3",
+      "stub_address": 439028
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0x5E3D4B79",
+      "stub_address": 439036
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0x7945ECDA",
+      "stub_address": 439044
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0x8F58BEDF",
+      "stub_address": 439052
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0x93EF3843",
+      "stub_address": 439060
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0xB58E61B7",
+      "stub_address": 439068
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0xCA5EDA6F",
+      "stub_address": 439076
+    },
+    {
+      "library": "sceNetAdhocMatching",
+      "nid": "0xF16EAF4F",
+      "stub_address": 439084
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x157E6225",
+      "stub_address": 439092
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x4DA4C788",
+      "stub_address": 439100
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x6F92741B",
+      "stub_address": 439108
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x7F27BB5E",
+      "stub_address": 439116
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x877F6D66",
+      "stub_address": 439124
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x8BEA2B3E",
+      "stub_address": 439132
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x9AC2EEAC",
+      "stub_address": 439140
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0x9DF81198",
+      "stub_address": 439148
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0xA62C6F57",
+      "stub_address": 439156
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0xABED3790",
+      "stub_address": 439164
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0xDFE53E03",
+      "stub_address": 439172
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0xE08BDAC1",
+      "stub_address": 439180
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0xE1D621D7",
+      "stub_address": 439188
+    },
+    {
+      "library": "sceNetAdhoc",
+      "nid": "0xFC6FC07B",
+      "stub_address": 439196
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x08FFF7A0",
+      "stub_address": 439204
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x20B317A0",
+      "stub_address": 439212
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x34401D65",
+      "stub_address": 439220
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x6402490B",
+      "stub_address": 439228
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x75ECD386",
+      "stub_address": 439236
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x8916C003",
+      "stub_address": 439244
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x8DB83FDC",
+      "stub_address": 439252
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0x9D689E13",
+      "stub_address": 439260
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0xDED9D28E",
+      "stub_address": 439268
+    },
+    {
+      "library": "sceNetAdhocctl",
+      "nid": "0xE26F226E",
+      "stub_address": 439276
+    },
+    {
+      "library": "sceNet",
+      "nid": "0x0BF0A3AE",
+      "stub_address": 439284
+    },
+    {
+      "library": "sceNet",
+      "nid": "0x281928A9",
+      "stub_address": 439292
+    },
+    {
+      "library": "sceNet",
+      "nid": "0x39AF39A6",
+      "stub_address": 439300
+    },
+    {
+      "library": "sceNet",
+      "nid": "0x89360950",
+      "stub_address": 439308
+    },
+    {
+      "library": "sceWlanDrv",
+      "nid": "0x0C622081",
+      "stub_address": 439732
+    }
+  ]
+}

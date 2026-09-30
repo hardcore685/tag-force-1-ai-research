@@ -1,0 +1,14 @@
+{
+  "context": {
+    "material_probe_succeeded": false,
+    "opponent_reference": 2600,
+    "own_reference_a": 1850,
+    "own_reference_b": 2200,
+    "fallback_allowed": false
+  },
+  "hand": [
+    {"card_id": 5803, "attack": 1300, "defense": 2000, "forced_position": 1},
+    {"card_id": 4095, "attack": 1200, "defense": 2200, "heuristic_position": 1},
+    {"card_id": 4530, "attack": 1250, "defense": 700, "heuristic_position": 1}
+  ]
+}

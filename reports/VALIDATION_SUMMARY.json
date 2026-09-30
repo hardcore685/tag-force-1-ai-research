@@ -1,0 +1,79 @@
+{
+  "game": "Yu-Gi-Oh! GX Tag Force (USA)",
+  "disc_id": "ULUS10136",
+  "disc_version": "1.03",
+  "original_files_unchanged": true,
+  "database_records": 2479,
+  "token_records": 28,
+  "monster_and_token_records": 1621,
+  "spell_records": 506,
+  "trap_records": 352,
+  "source_coverage": {
+    "engine_instruction_positions": 262306,
+    "helper_instruction_positions": 109935,
+    "total_instruction_positions": 372241,
+    "engine_unsupported_instructions": 0,
+    "audited_helper_instruction_positions": 18266,
+    "audited_helper_unsupported_instructions": 0,
+    "other_helper_explicit_unsupported_positions": 5414,
+    "complete_duel_engine_text_and_import_stubs_translated": true
+  },
+  "validation": {
+    "database_getter_comparisons": 24790,
+    "readable_component_cases": 49929,
+    "readable_component_mismatches": 0,
+    "readable_component_native_reference_mismatches": 0,
+    "native_real_helper_cases": 51,
+    "native_real_helper_mismatches": 0,
+    "native_instruction_semantics_checks": 34630,
+    "native_instruction_semantics_failures": 0,
+    "live_captures": 4,
+    "live_engine_allocation_matches": 4,
+    "strict_all_ram_matches": 2,
+    "live_memcpy_temporary_register_exception_captures": 1,
+    "callback_cases": 1964,
+    "callback_records": 491,
+    "unique_card_predicates": 142,
+    "callback_mismatches": 0,
+    "callback_execution_errors": 0,
+    "callback_predicate_instruction_coverage": {
+      "executed_instructions": 4570,
+      "total_instructions": 7227,
+      "fully_covered_predicate_bodies": 40,
+      "boundary_source": "Heuristic function boundaries in private original analysis metadata; coverage is instruction coverage, not complete branch or state coverage."
+    }
+  },
+  "native_library": {
+    "abi": 2,
+    "platform": "64-bit Windows",
+    "sha256": "70db608c8a6f90e9c88beebb97e0168cea8c28af9c957bdf64684367dbea63db",
+    "runtime_fetches_or_decodes_original_instructions": false,
+    "example_executable_instruction_bytes_erased": true,
+    "included_in_public_source": false,
+    "description": "Previously tested local build; its binary is not distributed here."
+  },
+  "included": [
+    "Complete generated C port of the duel-engine module and shared helper source",
+    "Python native-call interface and source build tools",
+    "Readable hand, position, phase, battle, tribute, target, response and card-strategy components",
+    "Small explicit decision examples without memory captures",
+    "Database decoder tooling without decoded game data",
+    "Recorded validation summary, findings, limitations and source provenance"
+  ],
+  "limits": [
+    "Not exhaustive full-duel or all-card-interaction equivalence.",
+    "Initialized captured TF1 USA layout required; arbitrary new host callbacks/layouts are unverified.",
+    "A fresh-duel constructor and complete match-host loop remain integration work.",
+    "PSP environment is not replicated; unsupported services fail explicitly.",
+    "Only selected routines are also expressed as high-level readable Python.",
+    "Generated source is reconstructed code, not the original Konami source.",
+    "Rarity, genre, sort and some raw-flag labels remain unresolved."
+  ],
+  "excluded": [
+    "Original executable images and game data archives",
+    "Compiled native DLL",
+    "Initialized memory fixtures and save data",
+    "Decoded card database, card text and artwork",
+    "Private experiment bundle and its illustrated PDF"
+  ]
+}

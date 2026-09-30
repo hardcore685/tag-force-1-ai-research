@@ -1,0 +1,10 @@
+{
+  "attack": 1250,
+  "defense": 700,
+  "context": {
+    "opponent_threat": 2600,
+    "own_reference_a": 1850,
+    "own_reference_b": 2200,
+    "own_life": 7400
+  }
+}

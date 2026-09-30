@@ -1,0 +1,23 @@
+# Private source inputs, captures and generated outputs
+/inputs/
+/work/
+/outputs/
+/traces/
+/reports/card_database/
+/tools/native_port/build/
+/examples/native/
+*.iso
+*.cso
+*.prx
+*.elf
+*.bin
+*.ppst
+*.tfstate
+*.dll
+*.exe
+*.obj
+*.pdb
+*.zip
+__pycache__/
+*.pyc
+.venv/
