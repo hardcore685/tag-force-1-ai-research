@@ -3,6 +3,23 @@
 Reverse-engineering notes, readable decision models and a native source
 translation for **Tag Force 1 USA, ULUS10136, disc version 1.03**.
 
+## Decompilation status
+
+**The whole AI is not yet decompiled into clean, understandable source.**
+There are two different kinds of reconstructed code here:
+
+- The recovered duel-engine instruction region has been mechanically translated
+  into generated C. This largely preserves individual instructions, CPU registers,
+  memory accesses and address labels; it is not clean game-level source.
+- Selected AI decision routines have also been reconstructed as readable Python,
+  with descriptive names and explanations.
+
+The native C can replay tested AI calls using compatible initialized game state.
+A fresh-duel initializer and complete match-host loop are still missing, and
+equivalent behavior across complete duels remains unproven.
+**Complete instruction coverage does not mean the entire AI is fully understood
+or that a complete independent AI replacement is finished.**
+
 This project investigates how the original AI selects summons, positions,
 attacks, targets, optional activations and chain responses. It preserves the
 recovered behavior, including order-dependent decisions.

@@ -1,5 +1,10 @@
 # Current status
 
+The entire AI has not been decompiled into clean, readable game-level source.
+Generated C is a mechanical instruction translation retaining low-level state;
+selected AI routines also have readable Python reconstructions. Function names
+in those models are descriptive names assigned during research.
+
 Complete recovered duel-engine instruction coverage and runnable initialized
 native decisions are distinct from a complete playable replacement game.
 
